@@ -1,0 +1,15 @@
+.userlist {
+  padding-left: 34px;
+  padding-right: 62px;
+  &__title {
+    padding-top: 19px;
+    margin-bottom: 17px;
+  }
+}
+
+.users__quantity {
+  text-align: right;
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 14px;
+}

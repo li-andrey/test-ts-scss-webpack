@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f3f3f3;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  &:last-of-type {
+    margin-bottom: 10px;
+  }
+}
+.card__info {
+  p {
+    margin-bottom: 7px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    span {
+      margin-right: 7px;
+      color: #a3a3a3;
+    }
+  }
+}
+.card__btn {
+  display: flex;
+  align-items: flex-end;
+}
+.card__button {
+  font-size: 12px;
+  line-height: 14px;
+  color: #4b51ef;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
